@@ -1,0 +1,17 @@
+footer {
+    background-color:#333333;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.img-mapa {
+    width: 37vw;
+    height: 33vh;
+}
+
+.div-contatos {
+    color: white;
+    margin-left: 80px;
+}
