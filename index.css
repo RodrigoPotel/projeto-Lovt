@@ -1,17 +1,43 @@
-footer {
-    background-color:#333333;
+@import url('https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap');
+     
+/* Seletor do css */
+body * {
+    font-family: 'Ropa Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #777777;
+}
+
+/* Seletor por classe */
+.img-estilos {
+    opacity: 0.5;
+}
+
+header > * {
+    display: inline-block;
+}
+
+.menu {
+    float: right;
+    margin-top: 16px;
+}
+
+body > header {
+    padding: 8px 44px;
+    font-size: 18px;
+    line-height: 20px;
+    box-shadow: 1px 1px 10px gray;
+}
+
+.sec-img-grande {
+    margin: 10px 44px;
+}
+
+.sec-cards {
+    margin: 10px 44px;
     display: flex;
-    justify-content: space-around;
-    padding-top: 50px;
-    padding-bottom: 50px;
 }
 
-.img-mapa {
-    width: 37vw;
-    height: 33vh;
-}
-
-.div-contatos {
-    color: white;
-    margin-left: 80px;
+.sec-cards > articles {
+    width: 30%;
 }
