@@ -1,43 +1,243 @@
 @import url('https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap');
      
 /* Seletor do css */
-body * {
+body {
     font-family: 'Ropa Sans', sans-serif;
     margin: 0;
     padding: 0;
-    color: #777777;
+    color: hsl(0, 0%, 47%);
+    width: 100vw;
 }
 
-/* Seletor por classe */
-.img-estilos {
-    opacity: 0.5;
-}
+/* menu site */
 
 header > * {
     display: inline-block;
 }
 
-.menu {
+.icon-menu {
     float: right;
-    margin-top: 16px;
+    margin-top: 1.8rem;
 }
 
 body > header {
-    padding: 8px 44px;
-    font-size: 18px;
-    line-height: 20px;
-    box-shadow: 1px 1px 10px gray;
+    padding: 0 1rem ;
+    font-size: 1rem;
+    line-height: 1rem;
+    box-shadow: 0 0 1rem gray;
 }
 
-.sec-img-grande {
-    margin: 10px 44px;
+main > section > img {
+    margin: 2rem 0 0 1.4rem;
+    width: 90vw;
 }
+
+/* cards */
 
 .sec-cards {
-    margin: 10px 44px;
+    margin: 2rem 1.4rem;
     display: flex;
+    flex-direction: column;
+    width: 90vw;
 }
 
-.sec-cards > articles {
-    width: 30%;
+.card2 {
+    margin-top: 4vh;
+}
+
+section > article {
+    background-color: #EEEEEE;
+    width: 100%;
+}
+
+section > article > header > img {
+    width: 90vw;
+}
+
+section > article > footer {
+    padding: 1rem;
+}
+
+section > article > footer > div {
+    display: flex;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 27px;
+    justify-content: space-between;
+}
+
+.status {
+    width: 23%;
+    border-radius: 1rem;    
+    font-size: 1.4rem;
+    line-height: 1rem;
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    align-items: center;
+}
+
+.new {
+    background: #51D275;
+}
+
+.sale {
+    background: #DC9730;
+}
+
+section > article > footer > p {
+    font-size: 12px;
+    line-height: 13px;
+    text-align: justify;
+    color: #555555;
+    margin-top: 10px;
+}
+
+/* parte dos estilos */
+
+.your-style{
+    text-align: center;
+}
+
+section > div > span {
+    color: #FFFFFF;
+}
+
+.style { 
+    min-height: 5rem;
+    display : flex;
+    align-items : center;
+    justify-content : center;
+    opacity: 0.5;
+    margin-bottom: 1rem;
+}
+
+.industrial {
+    background-image: url('./images/Rectangle 11.png');
+}
+
+.modern {
+    background-image: url('./images/Rectangle 12.png');
+}
+
+.classic {
+    background-image: url('./images/Rectangle 13.png');
+}
+
+section > div > span {
+    font-size: 1.5rem;
+    text-shadow: black .1rem .1rem;
+}
+
+/* footer */
+
+body > footer {
+    background-color: #333333;
+    text-align: center;
+    color: #FFFFFF;
+    line-height: 1.4rem;
+}
+
+.img-mapa {
+    margin: 1rem 1.3rem;
+    width: 90vw;
+}
+
+footer > div > img {
+    margin: 1rem .1rem;
+}
+
+@media (min-width: 1200px) {
+
+    body {
+        width: 98.4vw;
+    }
+
+    main > section > img {
+        margin: 2rem 1.3rem;
+        width: 97vw;
+    }
+
+    body > header {
+        font-size: 2rem;
+        line-height: 1.8rem;
+    }
+
+    .icon-menu {
+        float: right;
+        margin: 4rem;
+        width: 2vw;
+    }
+    
+    /* cards */
+    .sec-cards {
+        flex-direction: row;
+        margin-left: 4vw;
+    }
+
+    .card2 {
+        margin: 0 4vh;
+    }
+
+    section > article > header > img {
+        width: 45vw;
+    }
+
+    section > article > footer > p {
+        font-size: 21px;
+        line-height: 27px;
+        margin-top: 4%;
+    }
+
+    .status{
+        font-size: 1.8rem;
+        line-height: 2rem;
+    }
+
+    .sec-cards > article > footer > div {
+        font-size: 2.3rem;
+    }
+
+    
+
+    /* styles */
+
+    .style { 
+        min-height: 8rem;
+        display : flex;
+        align-items : center;
+        justify-content : center;
+        opacity: 0.5;
+        margin-bottom: 1rem;
+    }
+    
+    main > section > div {
+        width: 98.4vw;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .your-style * {
+        font-size: 2rem;
+    }
+
+    /* footer */
+
+    .img-mapa {
+        margin: 1rem 1.3rem;
+        width: 30vw;
+    }
+
+    body > footer {
+        display: flex;
+        justify-content: space-around;
+        font-size: 1.5rem;
+        line-height: 2rem;
+        width: 98.4vw;
+    }
+
+    .contacts{
+        margin-top: 3%;
+    }
 }
