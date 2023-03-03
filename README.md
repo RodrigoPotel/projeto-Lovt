@@ -13,7 +13,7 @@ https://user-images.githubusercontent.com/113199352/222254928-8c1f7b3d-1f18-49b8
 Esta aplicação foi desenvolvida com intuito em desenvolvermos uma SPA responsiva.
 Utilizando a metodologia de flex-box.
 
-## 6. Ferramentas utilizadas
+## 2. Ferramentas utilizadas
 
 Para desenvolver essa aplicação, utilizamos as seguintes ferramentas:
 
